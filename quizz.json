@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Que signifie PHP ?",
+        "reponses": [
+            "Page Helper Process",
+            "Programming Home Pages",
+            "PHP: Hypertext Preprocessor"
+        ],
+        "rightReply": "13"
+    },
+    {
+        "question": "Quelle fonction retourne la longueur d'une chaîne de texte ?",
+        "reponses": [
+            "strlen",
+            "strlength",
+            "length",
+            "substr"
+        ],
+        "rightReply": "21"
+    },
+    {
+        "question": "Comment accède-t-on au 1er élément chaton dans le tableau suivant : $tableau = Array('chaton' , 'ornithorynque', 'dauphin'); ?",
+        "reponses": [
+            "$tableau[1]",
+            "$tableau[0]",
+            "$tableau{0}",
+            "$tableau.get(1)"
+        ],
+        "rightReply": "32"
+    },
+    {
+        "question": "Comment vérifie-t-on l'égalité de deux variables : $a et $b ?",
+        "reponses": [
+            "$a = $b",
+            "$a == $b",
+            "$a != $b",
+            "if($a,$b)"
+        ],
+        "rightReply": "42"
+    },
+    {
+        "question": "Quelle est l'utilité de l'opérateur || ?",
+        "reponses": [
+            "Il sert à vérifier que toutes les conditions sont réalisées.",
+            "Il sert à vérifier qu'une, et une seule, des conditions est réalisée.",
+            "Il sert à vérifier qu'une, au moins, des conditions est réalisée."
+        ],
+        "rightReply": "53"
+    },
+    {
+        "question": "Quelles valeurs peut prendre le type booléen ?",
+        "reponses": [
+            "0 ou 1",
+            "TRUE ou FALSE",
+            "Toutes sauf NULL"
+        ],
+        "rightReply": "62"
+    },
+    {
+        "question": "La boucle for ($i=0 ; $i<=3 ; $i++ ) { echo $i; }...",
+        "reponses": [
+            "Sera éxécutée 2 fois",
+            "Sera éxécutée 3 fois",
+            "Sera éxécutée 4 fois"
+        ],
+        "rightReply": "73"
+    },
+    {
+        "question": "Sachant que $a = 4. Quelle instruction affiche : 4 = quatre ?",
+        "reponses": [
+            "echo '$a = quatre';",
+            "echo '$a = 2+2';",
+            "echo '$a = quatre';"
+        ],
+        "rightReply": "83"
+    },
+    {
+        "question": "Sachant que $dodo = 6. Quelle est la valeur de ma nuit : $dodo += 2; ?",
+        "reponses": [
+            "3",
+            "8",
+            "12"
+        ],
+        "rightReply": "92"
+    },
+    {
+        "question": "Dans le cas d'envoi d'informations plus ou moins sensibles par formulaire, quelle méthode utilisera-t-on de préférence ?",
+        "reponses": [
+            "get",
+            "mailto",
+            "post"
+        ],
+        "rightReply": "103"
+    }
+]
